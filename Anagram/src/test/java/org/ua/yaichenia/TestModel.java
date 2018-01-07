@@ -16,7 +16,8 @@ public class TestModel {
 	private String[][] testNotAnagrams = {{"I like Java", "I do not lie"},
 								  {"a first string", " second string"},
 								  {"ABCD", "EFGH"},
-								  {"my program", "isnt yours"}};
+								  {"my program", "isnt yours"},
+								  {"Blah blah blah", "..."}};
 	
 	@BeforeClass
 	public static void initModel() {
