@@ -2,9 +2,9 @@ package org.ua.yaichenia;
 
 public class View {
 
-	public final String INPUT_FIRST_STRING = "Please, input first string:";
+	public final String INPUT_FIRST_STRING = "Please, enter first string:";
 	public final String INPUT_SECOND_STRING = "Now input second string:";
-	public final String WRONG_INPUT = "Wrong input! Strings should not have different length!";
+	public final String WRONG_INPUT = "Incorrect! Strings should not have different length!";
 	
 	public void printMessage(String message) {
 		System.out.println(message);
